@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         multimediaList.add(new MultimediaItem("Video 1", "android.resource://" + getPackageName() + "/" + R.raw.mar, MultimediaItem.TIPO_VIDEO, "Vista relajante del mar.", R.drawable.video));
         multimediaList.add(new MultimediaItem("Video 2", "android.resource://" + getPackageName() + "/" + R.raw.atardecer, MultimediaItem.TIPO_VIDEO, "Un atardecer impresionante.", R.drawable.video));
         multimediaList.add(new MultimediaItem("Audio 1", "android.resource://" + getPackageName() + "/" + R.raw.relajacion, MultimediaItem.TIPO_AUDIO, "Sonidos naturales para relajarte.", R.drawable.altavoz));
-        multimediaList.add(new MultimediaItem("Audio 2", "android.resource://" + getPackageName() + "/" + R.raw.estudio, MultimediaItem.TIPO_AUDIO, "Sonidos ideales para estudiar.", R.drawable.altavoz));
+        multimediaList.add(new MultimediaItem("Audio 2", "android.resource://" + getPackageName() + "/" + R.raw.estudio, MultimediaItem.TIPO_AUDIO, "Sonidos naturales para relajarte.", R.drawable.altavoz));
         multimediaList.add(new MultimediaItem("Página Web 1", "https://www.google.com", MultimediaItem.TIPO_WEB, "Busca información fácilmente en Google.", R.drawable.www));
         multimediaList.add(new MultimediaItem("Página Web 2", "https://www.instagram.com", MultimediaItem.TIPO_WEB, "Explora y comparte en Instagram.", R.drawable.www));
 
